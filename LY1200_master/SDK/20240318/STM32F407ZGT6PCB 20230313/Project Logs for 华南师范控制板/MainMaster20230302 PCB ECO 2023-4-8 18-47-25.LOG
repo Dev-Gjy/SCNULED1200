@@ -1,0 +1,82 @@
+Removed Pin From Net: NetName=PE2 Pin=CN7-1
+Removed Pin From Net: NetName=PE3 Pin=CN7-2
+Removed Pin From Net: NetName=PE6 Pin=CN7-3
+Removed Pin From Net: NetName=PF10 Pin=CN7-4
+Removed Pin From Net: NetName=PC4_KEY0 Pin=CN9-1
+Removed Pin From Net: NetName=PB7_TIM4_CH2 Pin=CN9-2
+Removed Pin From Net: NetName=PB6_TIM4_CH1 Pin=CN9-3
+Removed Pin From Net: NetName=PC5_KEY1 Pin=CN9-4
+Removed Pin From Net: NetName=PB5_TIM3_CH2 Pin=CN9-5
+Removed Pin From Net: NetName=PB4_TIM3_CH1 Pin=CN9-6
+Removed Pin From Net: NetName=3V3 Pin=CN11-1
+Removed Pin From Net: NetName=AGND Pin=CN11-2
+Removed Pin From Net: NetName=PC3_SPI2_MOSI Pin=CN11-3
+Removed Pin From Net: NetName=PB12_SPI2_NSS Pin=CN11-4
+Removed Pin From Net: NetName=PB13_SPI2_SCK Pin=CN11-5
+Removed Pin From Net: NetName=PC2_SPI2_MISO Pin=CN11-6
+Removed Member From Class: ClassName=MainMaster Member=CN7
+Removed Member From Class: ClassName=Peripheral2 Member=CN11
+Change Component Footprint: Designator=CN7 Old Footprint=XH2.54-1*4P-CONN-TH_XH-4AW New Footprint=H2.54-1*6P-直插CONN-TH_6P-P2.50_HC-XH-6A-G
+Change Component Footprint: Designator=CN11 Old Footprint=XH2.54-1*6P-CONN-TH_6P-P2.50_HC-XH-6AW-G New Footprint=H2.54-1*6P-直插CONN-TH_6P-P2.50_HC-XH-6A-G
+Change Component Footprint: Designator=CN9 Old Footprint=XH2.54-1*6P-CONN-TH_6P-P2.50_HC-XH-6AW-G New Footprint=XH2.54-1*4P-直插CONN-TH_4P-P2.50_HC-XH-4A-G
+Change Component Comment : Designator=CN9 Old Comment=XH2.56-1*6P New Comment=XH2.54-1*4P 直插
+Change Component Comment : Designator=CN11 Old Comment=XH2.56-1*6P New Comment=XH2.56-1*6P直插
+Change Component Comment : Designator=CN7 Old Comment=XH-1*4P New Comment=XH2.56-1*6P直插
+Change component parameters: Designator = "CN7"; Footprint = "H2.54-1*6P-直插CONN-TH_6P-P2.50_HC-XH-6A-G"; UniqueID = "\FOQXOGHO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating (Max)"; Value = "3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet"; Value = "https://atta.szlcsc.com/upload/public/pdf/source/20230105/4FFD2EFD3DA44AA828171A44400F3EDE.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Device"; Value = "HC-XH-6AW-G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "公型插针"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "JLCPCB Part Class"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LCSC Part Name"; Value = "XH 2.54mm 1x6P 弯插"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "HCTL(华灿天禄)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part"; Value = "HC-XH-6AW-G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Style"; Value = "弯插"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "HC-XH-6AW-G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of PINs Per Row"; Value = "6"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature Range"; Value = "-25℃~+85℃"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins Structure"; Value = "1x6P"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Reference Series"; Value = "XH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Row Spacing"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Footprint"; Value = "弯插,P=2.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part"; Value = "C5341212"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Symbol"; Value = "HC-XH-6AW-G"; VariantName = "[No Variations]"
+Change component parameters: Designator = "CN9"; Footprint = "XH2.54-1*4P-直插CONN-TH_4P-P2.50_HC-XH-4A-G"; UniqueID = "\GLACDZRC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet"; Value = "https://atta.szlcsc.com/upload/public/pdf/source/20211021/ACA2D54D99493880102FCACAC8DAABA8.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Device"; Value = "XH-4AW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "JLCPCB Part Class"; Value = "Extended Part"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LCSC Part Name"; Value = "4P 2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "HCTL(华灿天禄)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part"; Value = "XH-4AW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "XH-4AW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Footprint"; Value = "插件,P=2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part"; Value = "C2908613"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Symbol"; Value = "XH-4AW_C2908613"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=CN7-1
+Added Pin To Net: NetName=AGND Pin=CN7-2
+Added Pin To Net: NetName=PC3_SPI2_MOSI Pin=CN7-3
+Added Pin To Net: NetName=PB12_SPI2_NSS Pin=CN7-4
+Added Pin To Net: NetName=PB13_SPI2_SCK Pin=CN7-5
+Added Pin To Net: NetName=PC2_SPI2_MISO Pin=CN7-6
+Added Pin To Net: NetName=PE2 Pin=CN9-1
+Added Pin To Net: NetName=PE3 Pin=CN9-2
+Added Pin To Net: NetName=PE6 Pin=CN9-3
+Added Pin To Net: NetName=PF10 Pin=CN9-4
+Added Pin To Net: NetName=PC4_KEY0 Pin=CN11-1
+Added Pin To Net: NetName=PB7_TIM4_CH2 Pin=CN11-2
+Added Pin To Net: NetName=PB6_TIM4_CH1 Pin=CN11-3
+Added Pin To Net: NetName=PC5_KEY1 Pin=CN11-4
+Added Pin To Net: NetName=PB5_TIM3_CH2 Pin=CN11-5
+Added Pin To Net: NetName=PB4_TIM3_CH1 Pin=CN11-6
+Added Member To Class: ClassName=Peripheral2 Member=Component CN7 XH2.56-1*6P直插
+Added Member To Class: ClassName=MainMaster Member=Component CN11 XH2.56-1*6P直插

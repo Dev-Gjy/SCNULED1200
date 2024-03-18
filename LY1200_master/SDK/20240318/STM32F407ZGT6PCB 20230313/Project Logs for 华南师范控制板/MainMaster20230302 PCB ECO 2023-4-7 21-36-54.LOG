@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=AGND Pin=BT1-2
+Removed Pin From Net: NetName=3V3 Pin=D1-2
+Removed Member From Class: ClassName=MainMaster Member=BT1
+Removed Member From Class: ClassName=MainMaster Member=D1
+Removed Member From Class: ClassName=MainMaster Member=D2
+Added Pin To Net: NetName=3V3 Pin=U2-6
+Added Room: Name=MainMaster
+Added Room: Name=Peripheral2

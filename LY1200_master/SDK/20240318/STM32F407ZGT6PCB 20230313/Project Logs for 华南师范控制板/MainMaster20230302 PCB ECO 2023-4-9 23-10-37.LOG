@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=PB11_USART3_RX Pin=R13-1
+Removed Pin From Net: NetName=PB10_USART3_TX Pin=R15-1
+Added Member To Class: ClassName=MainMaster Member=Component CN11 XH2.56-1*6PÖ±²å
+Added Room: Name=MainMaster
+Added Room: Name=Peripheral2
